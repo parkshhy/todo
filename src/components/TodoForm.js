@@ -42,10 +42,9 @@ function TodoForm(props) {
       ) : (
         <>
           <input
-            placeholder='입력'
+            placeholder=''
             value={input}
             onChange={handleChange}
-            name='text'
             className='todo-input'
             ref={inputRef}
           />
